@@ -66,7 +66,7 @@ $(document).on("click", ".delete-btn", function () {
 //***************************************************************
 // User login section. Should ideally be in its own module
 
-$("#auth-btn").click(function() {
+$("#auth-btn, #quickstart-sign-in, #quickstart-sign-up").click(function() {
   console.log("clicked auth");
   login()
   .then(function(result){
